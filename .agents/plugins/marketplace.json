@@ -1,0 +1,24 @@
+{
+  "name": "khao-pad-skills",
+  "owner": {
+    "name": "Der Reiskoch"
+  },
+  "metadata": {
+    "description": "A collection of Claude Code and Codex plugins for khao-pad based web development",
+    "version": "0.0.2"
+  },
+  "plugins": [
+    {
+      "name": "khao-pad-dev-skills",
+      "version": "0.0.2",
+      "source": "./plugins/khao-pad-dev-skills",
+      "description": "Adds khao-pad web development skills to your project"
+    },
+    {
+      "name": "khao-pad-dev-mcp-servers",
+      "version": "0.0.1",
+      "source": "./plugins/khao-pad-dev-mcp-servers",
+      "description": "Recommended MCP servers for khao-pad based web dev"
+    }
+  ]
+}
